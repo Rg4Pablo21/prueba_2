@@ -1,0 +1,22 @@
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer div:hover {
+    background-color: #777;
+}
